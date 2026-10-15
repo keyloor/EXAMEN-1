@@ -126,6 +126,7 @@ img {
   gap: 24px;
   margin-top: 30px;
 }
+
 .tile {
   background: white;
   border-radius: 14px;
@@ -133,6 +134,22 @@ img {
   box-shadow: 0 5px 25px #173b2d13;
   flex: 1;
 }
+
+.menu{
+ display: flex;
+ flex-direction: column;
+ gap: 40px
+ 
+}
+
+.tile-menu{
+  border: 3px solid green;
+}
+
+.tile-menu img{
+ object-fit: scale-down;
+}
+
 .tile img {
   height: 190px;
   width: 100%;
@@ -226,6 +243,7 @@ img {
     display: flex;
     flex-direction: column;
   }
+
   .page-grid {
     display: grid;
     grid-template-columns: 1fr;
