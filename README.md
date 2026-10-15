@@ -4,6 +4,12 @@ Proyecto estático HTML + CSS. Abrir `index.html` en el navegador. No necesita d
 
 El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/equipo.html` y `pages/eventos.html` con contenido central pendiente. Siga exclusivamente las especificaciones del examen para conocer el comportamiento esperado. No modifique el tema general ni sustituya el proyecto por otro.
 
+# Estudiantes
+
+Keylor Barrantes Gómez - C5D024
+
+Juan Pablo Jiménez Vargas - C5G323
+
 ## Diagnóstico de cinco incidencias
 
 | N.º | Comportamiento observado                                | Causa técnica y ubicación                                                                                   | Corrección realizada                                                           | Prueba de verificación                                                        | Autor  |
@@ -16,9 +22,10 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 ## Responsables de las funcionalidades
 
-| Estudiante | Página asignada | Rama | Commits principales |
-| ---------- | --------------- | ---- | ------------------- |
-|            |                 |      |                     |
+| Estudiante | Página asignada                          | Rama   | Commits principales |
+| ---------- | ---------------------------------------- | ------ | ------------------- |
+| Pablo      | Carta interactiva: viaje de tres tiempos | pablo  |                     |
+| Keylor     | Equipo: detrás de cada plato             | keylor |                     |
 
 ## Evidencias Git
 
