@@ -133,11 +133,30 @@ img {
   box-shadow: 0 5px 25px #173b2d13;
   flex: 1;
 }
+
 .tile img {
   height: 190px;
   width: 100%;
   object-fit: cover;
 }
+
+.equipo {
+  display: flex;
+  padding: 10%;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tile-equipo {
+  border: 2px solid #183c33;
+}
+
+.tile-equipo img {
+  object-fit: scale-down;
+  display: flex;
+  justify-content: center;
+}
+
 .tile-copy {
   padding: 23px;
 }
