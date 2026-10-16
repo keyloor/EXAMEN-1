@@ -1,8 +1,21 @@
 # SAVIA — examen N.º 1
 
-Proyecto estático HTML + CSS. Abrir `index.html` en el navegador. No necesita dependencias.
+Proyecto estático HTML + CSS para el restaurante ficticio SAVIA. No necesita dependencias, frameworks ni servidor.
 
-El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/equipo.html` y `pages/eventos.html` con contenido central pendiente. Siga exclusivamente las especificaciones del examen para conocer el comportamiento esperado. No modifique el tema general ni sustituya el proyecto por otro.
+## Cómo abrir y verificar el proyecto
+
+1. Descargar el ZIP o clonar el repositorio: `git clone https://github.com/keyloor/EXAMEN-1`.
+2. Abrir `index.html` en el navegador.
+3. Navegar con el menú superior: Inicio, Nuestra carta (`pages/menu.html`) y Nuestro equipo (`pages/equipo.html`).
+4. Para revisar la adaptación móvil, abrir las herramientas de desarrollador (F12), activar el modo dispositivo y probar con 1280 px y 375 px de ancho.
+
+Estructura:
+
+- `index.html`: página de inicio.
+- `pages/menu.html` + `css/menu.css`: Feature 1, carta de tres tiempos.
+- `pages/equipo.html` + `css/equipo.css`: Feature 2, equipo detrás de cada plato.
+- `css/styles.css`: estilos generales del sitio.
+- `images/`: imágenes del sitio y evidencias del README.
 
 # Estudiantes
 
@@ -24,8 +37,8 @@ Juan Pablo Jiménez Vargas - C5G323
 
 | Estudiante | Página asignada                          | Rama   | Commits principales |
 | ---------- | ---------------------------------------- | ------ | ------------------- |
-| Pablo      | Carta interactiva: viaje de tres tiempos | pablo  |                     |
-| Keylor     | Equipo: detrás de cada plato             | keylor |                     |
+| Pablo      | Carta interactiva: viaje de tres tiempos | pablo  | `08cee8d` Feature de menu, `53463a5` CSS propio y correcciones |
+| Keylor     | Equipo: detrás de cada plato             | keylor | `d002746` Feature 2 Equipo, `228680d` CSS propio y correcciones |
 
 ## Evidencias Git
 
@@ -33,7 +46,11 @@ Juan Pablo Jiménez Vargas - C5G323
 | ------------------------ | ---------------- | ------- | ----------------------------------------- |
 | Parte A: corrección de incidencias | [PR #1](https://github.com/keyloor/EXAMEN-1/pull/1) (autor: Pablo) | Keylor | Merge automático, sin conflictos |
 | Feature 1: Menú | [PR #2](https://github.com/keyloor/EXAMEN-1/pull/2) (autor: Pablo) | Keylor | Merge automático, sin conflictos |
-| Feature 2: Equipo | [PR #4](https://github.com/keyloor/EXAMEN-1/pull/4) (autor: Keylor) | Pablo | Merge automático, sin conflictos |
+| Feature 2: Equipo | [PR #4](https://github.com/keyloor/EXAMEN-1/pull/4) (autor: Keylor) | Pablo | Antes del PR se sincronizó develop en keylor (merge automático). Merge sin conflictos |
+| Feature 2: CSS propio, correcciones y evidencias | [PR #5](https://github.com/keyloor/EXAMEN-1/pull/5) (autor: Keylor) | Pablo | Merge automático, sin conflictos |
+| Feature 1: CSS propio, sección final y correcciones | [PR #6](https://github.com/keyloor/EXAMEN-1/pull/6) (autor: Pablo) | Keylor | pablo se sincronizó con develop antes del PR (incluía el PR #5). Merge automático, sin conflictos |
+
+El [PR #3](https://github.com/keyloor/EXAMEN-1/pull/3) se abrió por error hacia `main` y se cerró sin fusionar. Se reemplazó por el PR #4 hacia `develop`.
 
 ### Capturas del merge de los PR
 
@@ -45,6 +62,20 @@ PR #2, Feature 1 (Menú):
 
 ![Merge del PR #2](images/evidencias/pr-2-merge.png)
 
+PR #5, Feature 2 (Equipo), fusionado por Pablo:
+
+![Merge del PR #5](images/evidencias/pr-5-merge.png)
+
+PR #6, Feature 1 (Menú), fusionado por Keylor:
+
+![Merge del PR #6](images/evidencias/pr-6-merge.png)
+
 ## Verificación final
 
-Registrar las pruebas de funcionamiento a 1280 px y 375 px, enlaces y páginas.
+Inicio a 1280 px:
+
+![Inicio a 1280 px](images/verificacion/inicio-1280.webp)
+
+Inicio a 375 px:
+
+![Inicio a 375 px](images/verificacion/inicio-375.png)
