@@ -1,0 +1,16 @@
+.equipo {
+  display: flex;
+  padding: 10%;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tile-equipo {
+  border: 2px solid #183c33;
+}
+
+.tile-equipo img {
+  object-fit: scale-down;
+  display: flex;
+  justify-content: center;
+}

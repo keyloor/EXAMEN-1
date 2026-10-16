@@ -31,7 +31,19 @@ Juan Pablo Jiménez Vargas - C5G323
 
 | Funcionalidad/corrección | PR hacia develop | Revisor | Resultado de merge / conflicto si ocurrió |
 | ------------------------ | ---------------- | ------- | ----------------------------------------- |
-|                          |                  |         |                                           |
+| Parte A: corrección de incidencias | [PR #1](https://github.com/keyloor/EXAMEN-1/pull/1) (autor: Pablo) | Keylor | Merge automático, sin conflictos |
+| Feature 1: Menú | [PR #2](https://github.com/keyloor/EXAMEN-1/pull/2) (autor: Pablo) | Keylor | Merge automático, sin conflictos |
+| Feature 2: Equipo | [PR #4](https://github.com/keyloor/EXAMEN-1/pull/4) (autor: Keylor) | Pablo | Merge automático, sin conflictos |
+
+### Capturas del merge de los PR
+
+PR #1, Parte A:
+
+![Merge del PR #1](images/evidencias/pr-1-merge.png)
+
+PR #2, Feature 1 (Menú):
+
+![Merge del PR #2](images/evidencias/pr-2-merge.png)
 
 ## Verificación final
 
