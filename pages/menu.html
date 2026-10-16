@@ -5,15 +5,15 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>SAVIA | Nuestra carta</title>
     <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/menu.css" rel="stylesheet" />
   </head>
   <body>
     <header class="site-header">
-      <!-- Espacio de trabajo: está pendiente de implementación. -->
-       <div class="container nav-inner">
+      <div class="container nav-inner">
         <a class="logo" href="../index.html"> SAVIA. </a>
         <nav aria-label="Navegaci&oacute;n principal" class="nav-links">
-          <a aria-current="page" href="../index.html"> Inicio </a>
-          <a class="nav-contact" href="menu.html"> Nuestra carta </a>
+          <a href="../index.html"> Inicio </a>
+          <a aria-current="page" class="nav-contact" href="menu.html"> Nuestra carta </a>
           <a href="equipo.html">Nuestro equipo</a>
         </nav>
       </div>
@@ -32,7 +32,6 @@
       </div>
     </section>
     <main class="section container menu">
-      <!-- Espacio de trabajo: esta página está pendiente de implementación. -->
           <article class="tile tile-menu" id="entrada">
             <img
               alt="Presentaci&oacute;n gastron&oacute;mica 1"
@@ -46,7 +45,7 @@
               <h3>Precio: 3500 colones.</h3>
             </div>
           </article>
-          <article class="tile tile-menu" id="plato-fuerte"">
+          <article class="tile tile-menu" id="plato-fuerte">
             <img
               alt="Presentaci&oacute;n gastron&oacute;mica 2"
               src="../images/plato-fuerte.jpg"
@@ -58,17 +57,22 @@
               <h3>Precio: 8000 colones.</h3>
             </div>
           </article>
-          <article class="tile tile-menu">
+          <article class="tile tile-menu" id="postre">
             <img
               alt="Presentaci&oacute;n gastron&oacute;mica 3"
               src="../images/postre.png"
             />
-            <div class="tile-copy tile-menu" id="postre">
-              <h2>Postres</h2>
-              <p>Algo dulce para cerrar, te ofrecemos muchas opciones bajas en azúcares.</p>
-              <h3>Precio: 2500 c/u.</h3>
+            <div class="tile-copy">
+              <h2>Postre: Trío dulce de la casa</h2>
+              <p>Brownie de cacao, pudín de chía con frutos rojos y galletas de avena con almendras. Algo dulce para cerrar, con opciones bajas en azúcares.</p>
+              <h3>Precio: 2500 colones.</h3>
             </div>
           </article>
+          <section class="menu-info">
+            <h2>Sobre la experiencia</h2>
+            <p>El viaje de tres tiempos está pensado para disfrutarse en orden: una entrada ligera que abre el apetito, un plato fuerte nutritivo y un postre para cerrar. Recomendamos reservar con anticipación y avisar sobre alergias o preferencias alimentarias para adaptar los platos.</p>
+            <p>La experiencia completa tiene una duración aproximada de 90 minutos y el menú cambia según los ingredientes de temporada.</p>
+          </section>
     </main>
     <footer class="site-footer">
       <div class="container footer-inner">

@@ -135,21 +135,6 @@ img {
   flex: 1;
 }
 
-.menu{
- display: flex;
- flex-direction: column;
- gap: 40px
- 
-}
-
-.tile-menu{
-  border: 3px solid green;
-}
-
-.tile-menu img{
- object-fit: scale-down;
-}
-
 .tile img {
   height: 190px;
   width: 100%;
